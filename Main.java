@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //se dejó de usar directamente
+        //Lista original de procesos
         List<Proceso> procesosOriginales = new ArrayList<>(Arrays.asList(
                 new Proceso(1, 5, 0),
                 new Proceso(2, 3, 1),
