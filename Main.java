@@ -25,7 +25,7 @@ public class Main {
 
         // ===== ROUND ROBIN =====
         System.out.println("\n===== ROUND ROBIN =====");
-        RoundRobin rr = new RoundRobin(2); //se usó 1 como evidencia
+        RoundRobin rr = new RoundRobin(2); 
         List<Proceso> resultadoRR = rr.ejecutar(rrProcesos);
 
         imprimirResultados(resultadoRR);
